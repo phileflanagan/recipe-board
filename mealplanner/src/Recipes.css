@@ -5,3 +5,9 @@
   flex-flow: row wrap-reverse;
   justify-content: space-around;
 }
+
+@media screen and (max-width: 420px) {
+    .gallery {
+      padding: 0;
+    }
+}
