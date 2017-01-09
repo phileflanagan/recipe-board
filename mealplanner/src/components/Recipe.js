@@ -35,11 +35,16 @@ class Recipe extends Component {
                 <span className="count-icon">&hearts;</span>
               </button>
             </div>
-            {console.log(comments, recipe, recipeVideo)}
+            {console.log('use these guys:', comments, recipe, recipeVideo)}
         </div>
       </div>
     );
   }
+}
+
+Recipe.propTypes = {
+  item: React.PropTypes.object.isRequired,
+  index: React.PropTypes.string.isRequired
 }
 
 export default Recipe;

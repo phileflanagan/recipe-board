@@ -21,4 +21,8 @@ class Recipes extends Component {
   }
 }
 
+Recipes.propTypes = {
+  recipeList: React.PropTypes.object.isRequired
+}
+
 export default Recipes;
