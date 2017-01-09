@@ -15,4 +15,4 @@ build
 npm-debug.log
 
 # other
-bts
+/bts/
