@@ -19,7 +19,7 @@
 }
 
 .recipe-card .desc {
-  padding: 0.5rem 1rem;
+  padding: 0.3rem 0.6rem;
 }
 
 .recipe-card .desc h3 {
@@ -27,7 +27,7 @@
 }
 
 .recipe-card .desc p {
-  margin: 0;
+  margin: 0.3rem 0;
 }
 
 .recipe-card .tags ul {
@@ -50,13 +50,21 @@
 }
 
 .likes {
-  font-size: 1.2rem;
+  display: inline-block;
 }
 
-.heart-count {
-  font-size: 1rem;
+.likes button {
+  margin-top: 5px;
+  margin-right: 10px;
+  background: #f5f5f5;
+  padding: 0.2rem 0.5rem;
+  border: 1px solid #ccc;
 }
-.heart {
+
+.count {
+  font-size: 0.5rem;
+}
+.count-icon {
+  font-size: 0.5rem;
   margin-left: 0.3rem;
-  color: #d43232;
 }
