@@ -11,6 +11,7 @@ class App extends Component {
       <div className="App">
         <TopBar />
         <Recipes recipeList={samples} />
+        <footer><p>&copy;Copyright 2017 Phil Flanagan</p></footer>
       </div>
     );
   }
