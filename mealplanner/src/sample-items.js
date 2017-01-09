@@ -33,7 +33,7 @@ module.exports = {
     recipeVideo: '',
   },
   flatbread: {
-    name: 'Sweet Potato Flatbeard',
+    name: 'Sweet Potato Flatbread',
     image: 'https://s3-us-west-2.amazonaws.com/philinthekitchen/flatbread.jpg',
     desc: 'A simple no frills way to carb your meals up',
     likes: 0,
