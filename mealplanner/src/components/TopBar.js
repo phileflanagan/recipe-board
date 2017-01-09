@@ -6,6 +6,7 @@ class TopBar extends Component {
   render() {
     return (
       <header className="topbar">
+        <div className="container">
         <h1>
           Phil
           <span className="in-the">
@@ -20,6 +21,7 @@ class TopBar extends Component {
             <li><a href="#">about</a></li>
           </ul>
         </nav>
+        </div>
       </header>
     );
   }
