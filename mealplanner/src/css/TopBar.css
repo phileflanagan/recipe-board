@@ -19,14 +19,14 @@
   font-family: 'Amatic SC', cursive;
   color: #888;
   margin: 0 1rem;
-  font-size: 2.2rem;
+  font-size: 2rem;
   flex-grow: 5;
 }
 
 .in-the {
   font-family: 'Indie Flower', cursive;
   color: #7cb05d;
-  font-size: 1.5rem;
+  font-size: 1.3rem;
   margin: 0 0.5rem;
 }
 
@@ -55,8 +55,60 @@
   color: #333;
 }
 
+#nav-toggle-cbox {
+  display: none;
+}
+
 @media (max-width: 768px) {
-  .topbar h1 {
-    flex-grow: 1;
+  label.nav-toggle {
+      cursor: pointer;
+      display: inline-block;
+      position: absolute;
+      float: right;
+      right: 6px;
+      top: 6px;
+      height: 34px;
+      width: 34px;
+      background-color: #f5f5f5;
+      border-radius: 0.3rem;
+      border: 2px solid #ccc;
   }
+  label.nav-toggle span {
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: block;
+    width: 20px;
+    height: 2px;
+    background-color: #ccc;
+    transform-origin: center;
+    transition: all 0.3s ease-in-out;
+  }
+  label.nav-toggle span:nth-child(1) { top: 12px; }
+  label.nav-toggle span:nth-child(2) { top: 17px; }
+  label.nav-toggle span:nth-child(3) { top: 22px; }
+
+  .topbar .container {
+    display: block;
+  }
+
+  .top-nav ul {
+    position: absolute;
+    top: 50px;
+    left: 100%;
+    display: block;
+    background-color: #f5f5f5;
+    transition: all 0.3s cubic-bezier(0.61,-0.19, 0.7,-0.11);
+  }
+
+  #nav-toggle-cbox:checked + label span:nth-child(1) { transform: translate(-50%, -50%) rotate(45deg); top: 17px; }
+  #nav-toggle-cbox:checked + label span:nth-child(3) { transform: translate(-50%, -50%) rotate(-45deg); top: 17px; }
+  #nav-toggle-cbox:checked + label span:nth-child(2) { background-color:transparent; }
+
+
+  #nav-toggle-cbox:checked ~ ul {
+    top: 50px;
+    left: 0;
+  }
+
 }
