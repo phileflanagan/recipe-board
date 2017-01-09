@@ -8,7 +8,12 @@ class Recipes extends Component {
   render() {
     return (
       <div className="gallery">
-        <p>Gallery Goes Here</p>
+        <Recipe />
+        <Recipe />
+        <Recipe />
+        <Recipe />
+        <Recipe />
+        <Recipe />
         <Recipe />
       </div>
     );

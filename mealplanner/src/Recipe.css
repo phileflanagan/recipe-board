@@ -1,13 +1,21 @@
 .recipe-card {
-  display: inline-block;
+  margin: 0.5% 0.5%;
+  width: 200px;
+  flex: auto;
   background-color: #f5f5f5;
   border-radius: 5px;
   overflow: hidden;
+  color: #666;
 }
 
 
 .recipe-card .thumb {
 
+}
+
+.thumb img {
+  width: 100%;
+  height: auto;
 }
 
 .recipe-card .desc {

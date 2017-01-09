@@ -1,3 +1,7 @@
 .gallery {
-  background-color: #222;
+  padding: 1%;
+  background-color: #cbd3c6;
+  display: flex;
+  flex-flow: row wrap-reverse;
+  justify-content: space-around;
 }
