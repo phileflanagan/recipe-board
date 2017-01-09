@@ -32,7 +32,7 @@ class Recipe extends Component {
               </button>
               <button>
                 <span className="count">{likes}</span>
-                <span className="count-icon">&hearts;</span>
+                <span className="count-icon">saves</span>
               </button>
             </div>
             {console.log('use these guys:', comments, recipe, recipeVideo)}
