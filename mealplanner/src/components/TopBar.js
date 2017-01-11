@@ -25,7 +25,7 @@ class TopBar extends Component {
               <span></span>
             </label>
           <ul>
-            <li><Link to="/">home</Link></li>
+            <li><Link to="/">recipes</Link></li>
             <li><Link to="/about">about</Link></li>
             <li><Link to="/contact">contact</Link></li>
           </ul>
