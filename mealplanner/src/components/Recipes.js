@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 
 import Recipe from './Recipe';
+import samples from '../sample-items';
 
 import '../css/Recipes.css';
 
@@ -9,9 +10,9 @@ class Recipes extends Component {
     return (
       <div className="container">
         <div className="gallery">
-          {Object.keys(this.props.recipeList)
+          {Object.keys(samples)
             .map(key => <Recipe
-                          item={this.props.recipeList[key]}
+                          item={samples[key]}
                           key={key}
                           index={key} />
             )}
@@ -19,10 +20,6 @@ class Recipes extends Component {
       </div>
     );
   }
-}
-
-Recipes.propTypes = {
-  recipeList: React.PropTypes.object.isRequired
 }
 
 export default Recipes;

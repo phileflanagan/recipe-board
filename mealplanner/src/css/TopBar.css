@@ -44,12 +44,17 @@
   justify-content: space-around;
 }
 
-.top-nav ul > li {
+.top-nav ul li {
   flex-grow: 1;
   text-align: center;
 }
+.top-nav ul li a {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
 
-.top-nav ul > li:hover {
+.top-nav ul li:hover {
   background-color: #eee;
   cursor: pointer;
   color: #333;
