@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import { Link } from 'react-router';
 
 import '../css/Recipe.css';
 
@@ -26,10 +27,10 @@ class Recipe extends Component {
           <p>{desc}</p>
           {this.renderTags(tags)}
             <div className="likes">
-              <button>
+              <Link to={`/recipe/${this.props.index}`} className="card-btn">
                 <span className="count">{commentCount}</span>
                 <span className="count-icon">comments</span>
-              </button>
+              </Link>
               <button>
                 <span className="count">{likes}</span>
                 <span className="count-icon">saves</span>

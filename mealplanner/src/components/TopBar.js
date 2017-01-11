@@ -9,11 +9,13 @@ class TopBar extends Component {
       <header className="topbar">
         <div className="container">
         <h1>
-          Phil
+          <Link to="/">
+            Phil
           <span className="in-the">
             in the
           </span>
-          Kitchen
+            Kitchen
+          </Link>
         </h1>
         <nav className="top-nav">
           <input type="checkbox" id="nav-toggle-cbox" />
