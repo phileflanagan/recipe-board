@@ -25,9 +25,9 @@ class TopBar extends Component {
               <span></span>
             </label>
           <ul>
-            <li><Link to="/">recipes</Link></li>
-            <li><Link to="/about">about</Link></li>
-            <li><Link to="/contact">contact</Link></li>
+            <li><Link to="/" activeClassName="active" activeOnlyWhenExact>recipes</Link></li>
+            <li><Link to="/about" activeClassName="active" activeOnlyWhenExact>about</Link></li>
+            <li><Link to="/contact" activeClassName="active" activeOnlyWhenExact>contact</Link></li>
           </ul>
         </nav>
         </div>
