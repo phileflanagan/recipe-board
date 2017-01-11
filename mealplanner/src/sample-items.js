@@ -65,4 +65,15 @@ module.exports = {
     recipe: '',
     recipeVideo: '',
   },
+  mesiratakilt: {
+    name: 'Mesir & Atakilt Wat',
+    image: 'https://s3-us-west-2.amazonaws.com/philinthekitchen/mesir-atakilt-wat.jpg',
+    desc: 'Ethiopian red lentil stew and spiced cabbage, potato, and carrots',
+    likes: 0,
+    commentCount: 0,
+    comments: [],
+    tags: ['spicy', 'ethiopian', 'lentils', 'potato', 'carrot', 'cabbage', 'stews'],
+    recipe: '',
+    recipeVideo: '',
+  }
 }

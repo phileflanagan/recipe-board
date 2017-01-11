@@ -1,21 +1,20 @@
 import React, { Component } from 'react';
-import '../css/App.css';
 
 import TopBar from './TopBar';
 import Footer from './Footer';
-import Recipes from './Recipes';
-import samples from '../sample-items';
 
-class App extends Component {
+import '../css/Single.css';
+
+class Single extends Component {
   render() {
     return (
       <div className="App">
         <TopBar />
-        <Recipes recipeList={samples} />
+        <p>Single Recipe Here</p>
         <Footer />
       </div>
     );
   }
 }
 
-export default App;
+export default Single;
