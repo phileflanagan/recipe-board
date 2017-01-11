@@ -20,7 +20,7 @@ class Recipe extends Component {
     const { name, image, desc, likes, commentCount, comments, tags, recipe, recipeVideo } = this.props.item;
 
     return (
-      <div className="recipe-card">
+      <div className="recipe-card card">
         <div className="thumb"><img src={image} alt="Recipe"/></div>
         <div className="desc">
           <h3>{name}</h3>
