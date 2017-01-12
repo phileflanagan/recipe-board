@@ -7,7 +7,10 @@ module.exports = {
     commentCount: 0,
     comments: [],
     tags: ['spicy', 'pasta', 'cheese', 'potato', 'sweet potato'],
-    recipe: '',
+    recipe: [
+      'ingredients': [],
+      'method': ''
+    ],
     recipeVideo: '',
   },
   sloppyjoes: {

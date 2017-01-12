@@ -7,7 +7,7 @@ const About = () => {
       <section className="whoami">
       <div className="container">
         <div className="info-about-me">
-          <img src="https://s3-us-west-2.amazonaws.com/philinthekitchen/me.jpg" />
+          <img src="https://s3-us-west-2.amazonaws.com/philinthekitchen/me.jpg" alt="Phil Flanagan"/>
           <h2>Who Am I?</h2>
           <p>Hi, my name is Phil Flanagan. I adhere to a plant-based diet, which combines my three big passions: nutrition, cooking, and eating. Beyond the kitchen, I am a Web Developer.</p>
         </div>

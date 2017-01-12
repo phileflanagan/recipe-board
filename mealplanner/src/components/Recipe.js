@@ -18,11 +18,11 @@ class Recipe extends Component {
 
   render() {
     const { name, image, desc, likes, commentCount, comments, tags, recipe, recipeVideo } = this.props.item;
-<img src={image} alt="Recipe"/>
+
     return (
       <div className="recipe-card card">
         <div className="thumb">
-          <Link to={`/recipe/${this.props.index}`}><img src={image} alt="Recipe"/></Link>
+          <Link to={`/recipe/${this.props.index}`}><img src={image} alt={name}/></Link>
         </div>
         <div className="desc">
           <h3>

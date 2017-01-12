@@ -14,7 +14,7 @@ class Single extends Component {
       <div className="container">
         <div className="single">
           <Recipe index={recipeId} item={sampleItems[recipeId]} />
-          <Details />
+          <Details index={recipeId} item={sampleItems[recipeId]} />
           <Comments />
         </div>
       </div>
