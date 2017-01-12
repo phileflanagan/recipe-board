@@ -7,10 +7,10 @@ module.exports = {
     commentCount: 0,
     comments: [],
     tags: ['spicy', 'pasta', 'cheese', 'potato', 'sweet potato'],
-    recipe: [
-      'ingredients': [],
-      'method': ''
-    ],
+    recipe: {
+      ingredients: ['1 box whole wheat shells', '1 potato', '1 sweet potato', '3T nutritional yeast', '1t turmeric', '1t each garlic and onion powder', '2T korean red pepper flakes', '1/2t white pepper'],
+      method: ''
+    },
     recipeVideo: '',
   },
   sloppyjoes: {
