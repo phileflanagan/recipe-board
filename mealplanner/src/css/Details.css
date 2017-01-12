@@ -1,12 +1,11 @@
 .recipe-details {
   padding: 0rem 1rem;
-  margin: 0.5% 0.5%;
   flex: 1;
   background-color: #f5f5f5;
 }
 
 @media (max-width: 768px) {
   .recipe-details {
-    flex: 1 auto;
+    flex: 1 100%;
   }
 }

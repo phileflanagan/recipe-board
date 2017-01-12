@@ -1,7 +1,3 @@
-.recipe-card {
-  margin: 0.5% 0.5%;
-}
-
 /* Show Differently on Gallery vs Single View */
 .gallery .recipe-card {
   width: 250px;
