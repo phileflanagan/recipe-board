@@ -1,10 +1,9 @@
-import React, { Component } from 'react';
+import React from 'react';
 import { Link } from 'react-router';
 
 import '../css/TopBar.css';
 
-class TopBar extends Component {
-  render() {
+const TopBar = () => {
     return (
       <header className="topbar">
         <div className="container">
@@ -33,7 +32,6 @@ class TopBar extends Component {
         </div>
       </header>
     );
-  }
 }
 
 export default TopBar;
