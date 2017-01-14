@@ -8,7 +8,7 @@ class Details extends Component {
   }
 
   renderIngs = (ingredients) => {
-    if (ingredients === []) return;
+    if (!ingredients) return;
 
     return (
       <div className="ingredients">
@@ -20,12 +20,44 @@ class Details extends Component {
     );
   }
 
+  renderMethod = (method) => {
+    if (!method) return;
+
+    return (
+      <div className="method">
+        <h2 className="details-header">Method</h2>
+        <p>{ method }</p>
+      </div>
+    );
+  }
+
+  renderNotes = (notes) => {
+    if (!notes) return;
+
+    return (
+      <div className="notes">
+        <h2 className="details-header">Notes</h2>
+        <p>{ notes }</p>
+      </div>
+    );
+  }
+
+  noRecipe = (ingredients, method, notes) => {
+    if (ingredients || method || notes) return;
+
+    return (
+      <p>Recipe Coming Soon!</p>
+    );
+  }
+
   render() {
-    const { ingredients, method } = this.props.item.recipe;
+    const { ingredients, method, notes } = this.props.item.recipe || {};
     return (
       <div className="recipe-details card">
+        {this.noRecipe(ingredients, method, notes)}
         {this.renderIngs(ingredients)}
-        <p className="method">{ method }</p>
+        {this.renderMethod(method)}
+        {this.renderNotes(notes)}
       </div>
     );
   }

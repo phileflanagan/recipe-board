@@ -8,8 +8,9 @@ module.exports = {
     comments: [],
     tags: ['spicy', 'pasta', 'cheese', 'potato', 'sweet potato'],
     recipe: {
-      ingredients: ['1 box whole wheat shells', '1 potato', '1 sweet potato', '3T nutritional yeast', '1t turmeric', '1t each garlic and onion powder', '2T korean red pepper flakes', '1/2t white pepper'],
-      method: ''
+      ingredients: ['1 box whole wheat shells', '1 potato, peeled and cubed', '1 sweet potato, peeled and cubed', '3T nutritional yeast', '1t turmeric', '2T tahini','1t each garlic and onion powder', '2T korean red pepper flakes', '1/2t white pepper'],
+      method: 'Start by boiling the potato and sweet potato until soft. Cook the pasta according to package instructions and drain, but do not rinse. In a powerful blender, add the boiled potato and sweet potato, a cup of the starchy water used to cook the potatoes, and all of the seasoning. Blend until smooth. Pour over cooked pasta and mix until well coated.',
+      notes: 'Garnish with smoked paprika. You can replace the potato or sweet potato with carrots or squash if preferred. To adjust cheese sauce: add mustard for tang, soy sauce for saltiness, or cashews/more tahini for more fat and body.'
     },
     recipeVideo: '',
   },
