@@ -1,10 +1,15 @@
-import React, { Component } from 'react';
+import React, { Component, PropTypes } from 'react';
 import { Link } from 'react-router';
 
 import '../css/Recipe.css';
 
 class Recipe extends Component {
-  renderTags(tags) {
+  static propTypes = {
+    item: PropTypes.object.isRequired,
+    index: PropTypes.string.isRequired
+  };
+
+  renderTags = (tags) => {
     if (!tags) return;
 
     return (
@@ -45,11 +50,6 @@ class Recipe extends Component {
       </div>
     );
   }
-}
-
-Recipe.propTypes = {
-  item: React.PropTypes.object.isRequired,
-  index: React.PropTypes.string.isRequired
 }
 
 export default Recipe;

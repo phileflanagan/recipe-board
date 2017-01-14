@@ -2,14 +2,14 @@ import React, { Component } from 'react';
 import '../css/Details.css';
 
 class Details extends Component {
-  renderIngs = (ings) => {
-    if (ings === []) return;
-    console.log(ings);
+  renderIngs = (ingredients) => {
+    if (ingredients === []) return;
+
     return (
       <div className="ingredients">
         <h2 className="details-header">Ingredients</h2>
         <ul>
-          {ings.map((ing, i) => <li key={i}>{ing}</li>)}
+          {ingredients.map((ing, i) => <li key={i}>{ing}</li>)}
         </ul>
       </div>
     );
