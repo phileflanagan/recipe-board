@@ -1,9 +1,10 @@
 .gallery {
-  padding: 1%;
+  /*padding: 1%;*/
   background-color: #cbb68e;
   display: flex;
   flex-flow: row-reverse wrap-reverse;
   justify-content: space-around;
+  /*height: 100%;*/
 }
 
 /*@media screen and (max-width: 420px) {
