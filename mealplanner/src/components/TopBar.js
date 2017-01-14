@@ -1,5 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router';
+import { closeNav } from '../helpers';
 
 import '../css/TopBar.css';
 
@@ -24,14 +25,15 @@ const TopBar = () => {
               <span></span>
             </label>
           <ul>
-            <li><Link to="/" activeClassName="active" activeOnlyWhenExact>recipes</Link></li>
-            <li><Link to="/about" activeClassName="active" activeOnlyWhenExact>about</Link></li>
-            <li><Link to="/contact" activeClassName="active" activeOnlyWhenExact>contact</Link></li>
+            <li><Link to="/" activeClassName="active" onClick={closeNav} activeOnlyWhenExact>recipes</Link></li>
+            <li><Link to="/about" activeClassName="active" onClick={closeNav} activeOnlyWhenExact>about</Link></li>
+            <li><Link to="/contact" activeClassName="active" onClick={closeNav} activeOnlyWhenExact>contact</Link></li>
           </ul>
         </nav>
         </div>
       </header>
     );
 }
+
 
 export default TopBar;

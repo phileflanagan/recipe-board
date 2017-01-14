@@ -100,3 +100,15 @@
   font-size: 0.6rem;
   margin-left: 0.3rem;
 }
+
+@media (max-width: 768px) {
+  .recipe-card {
+    width: 33%;
+  }
+}
+
+@media (max-width: 480px) {
+  .recipe-card {
+    width: 50%;
+  }
+}
