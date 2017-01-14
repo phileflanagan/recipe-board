@@ -2,7 +2,7 @@
   padding: 1%;
   background-color: #cbb68e;
   display: flex;
-  flex-flow: row wrap-reverse;
+  flex-flow: row-reverse wrap-reverse;
   justify-content: space-around;
 }
 
