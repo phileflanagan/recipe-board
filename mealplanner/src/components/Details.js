@@ -2,12 +2,7 @@ import React, { Component } from 'react';
 import '../css/Details.css';
 
 class Details extends Component {
-  constructor() {
-    super();
-    this.renderIngs = this.renderIngs.bind(this);
-  }
-
-  renderIngs(ings) {
+  renderIngs = (ings) => {
     if (ings === []) return;
     console.log(ings);
     return (
