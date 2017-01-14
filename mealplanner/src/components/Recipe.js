@@ -7,7 +7,7 @@ class Recipe extends Component {
   static propTypes = {
     item: PropTypes.object.isRequired,
     index: PropTypes.string.isRequired
-  };
+  }
 
   renderTags = (tags) => {
     if (!tags) return;

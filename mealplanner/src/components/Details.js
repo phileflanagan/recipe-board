@@ -1,7 +1,12 @@
-import React, { Component } from 'react';
+import React, { Component, PropTypes } from 'react';
 import '../css/Details.css';
 
 class Details extends Component {
+  static propTypes = {
+    item: PropTypes.object.isRequired,
+    index: PropTypes.string.isRequired
+  }
+
   renderIngs = (ingredients) => {
     if (ingredients === []) return;
 
