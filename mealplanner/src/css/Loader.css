@@ -1,0 +1,136 @@
+.loading {
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 999;
+	height: 100vh;
+	width: 100vw;
+	background: #00ff8c;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.loading h1, .loading h2 {
+	margin: 0.2rem;
+	color: #ec76bb;
+	font-family: 'helvetica neue';
+	font-weight: lighter;
+}
+
+.loader {
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-end;
+	align-items: center;
+	height: 270px;
+/* 	border: 1px solid red; */
+}
+.loader * {
+	position: relative;
+	display: block;
+	margin: 5px auto;
+	text-align: center;
+	animation: sammy 1.5s cubic-bezier(0.21, 1.57, 0.5, 1) infinite;
+}
+.loader div {
+	margin: 0px;
+}
+
+.sl-topbun {
+	width: 200px;
+	height: 50px;
+	background-color: #ffa333;
+	border-radius: 50px;
+	border-top-left-radius: 200px;
+	border-top-right-radius: 200px;
+	border-bottom: 4px solid #f0f0f0;
+}
+
+.sl-lettuce {
+	width: 212px;
+	height: 7px;
+	background-color: #5c7515;
+}
+
+.sl-tomatoes {
+	text-align: center;
+}
+
+.sl-tomato {
+	display: inline-block;
+	width: 80px;
+	height: 5px;
+	border-radius: 50%;
+	border: 5px solid #ff310c;
+	background-color: #ff6347;
+}
+.sl-tomato:nth-child(1) {
+	transform: rotate(-5deg);
+	right: -6px;
+	top: -3px;
+}
+.sl-tomato:nth-child(2) {
+	left: -6px;
+}
+
+.sl-onions {
+	text-align: center;
+}
+.sl-onion {
+	display: inline-block;
+	width: 80px;
+	height: 5px;
+	border-radius: 50%;
+	border: 5px solid #f2f2f2;
+}
+.sl-onion:nth-child(1) {
+
+}
+.sl-onion:nth-child(2) {
+
+}
+
+.sl-pickles {
+	margin: 50px;
+}
+
+.sl-pickle {
+	display: inline-block;
+	width: 40px;
+	height: 8px;
+	border-radius: 50%;
+	border: 2px solid #556b2f;
+	background-color: #637d37;
+}
+
+.sl-pickle:nth-child(2) {
+	top: -5px;
+}
+
+.sl-burger {
+	width: 220px;
+	height: 30px;
+	border-radius: 10px;
+	background-color: #8b4513;
+}
+
+.sl-bottombun {
+width: 200px;
+	height: 30px;
+	background-color: #ffa333;
+	border-radius: 7px;
+/* 	border-bottom-left-radius: 5px; */
+/* 	border-bottom-right-radius: 5px;	 */
+}
+
+@keyframes sammy {
+	0%, 100% {
+		margin: -2px auto;
+	}
+
+	50% {
+		margin: 5px auto;
+	}
+}
