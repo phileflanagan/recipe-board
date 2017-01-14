@@ -15,8 +15,9 @@
 .loading h1, .loading h2 {
 	margin: 0.2rem;
 	color: #ec76bb;
-	font-family: 'helvetica neue';
-	font-weight: lighter;
+	font-family: 'Amatic SC';
+	font-weight: bolder;
+  font-size: 2rem;
 }
 
 .loader {
