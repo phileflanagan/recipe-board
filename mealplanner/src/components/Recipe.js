@@ -28,11 +28,11 @@ class Recipe extends Component {
       <div className="recipe-card">
         <div className="recipe-card-content">
             <Link to={`/recipe/${this.props.index}`}><img src={image} alt={name}/></Link>
-            <h3>
-              <Link to={`/recipe/${this.props.index}`}>{name}</Link>
-            </h3>
-            <p>{desc}</p>
-            {this.renderTags(tags)}
+            <div className="desc">
+              <Link to={`/recipe/${this.props.index}`}><h3>{name}</h3></Link>
+              <p>{desc}</p>
+              {this.renderTags(tags)}
+            </div>
             <div className="likes">
               <Link to={`/recipe/${this.props.index}`} className="card-btn">
                 <span className="count">{commentCount}</span>
