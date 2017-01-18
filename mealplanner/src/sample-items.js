@@ -101,5 +101,16 @@ module.exports = {
     tags: ['black beans', 'sweet potato', 'seitan', 'sandwich'],
     recipe: '',
     recipeVideo: '',
+  },
+  cajuncabbage: {
+    name: 'Spicy Cajun Cabbage and Potato Stew',
+    image: 'https://s3-us-west-2.amazonaws.com/philinthekitchen/cajun-cabbage.jpg',
+    desc: 'This spicy stew is the perfect way to warm up you and your tastebuds',
+    likes: 0,
+    commentCount: 0,
+    comments: [],
+    tags: ['stews', 'potato', 'cabbage', 'cajun', 'spicy'],
+    recipe: '',
+    recipeVideo: '',
   }
 }
