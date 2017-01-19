@@ -17,7 +17,7 @@
   flex-direction: column;
   width: 100%;
   background-color: white;
-  box-shadow: 0rem 0.1rem 0 0.05rem rgba(0,0,0,0.2);
+  box-shadow: 0rem 0.1rem 0.2rem 0.05rem rgba(0,0,0,0.15);
   border-radius: 0.3rem;
   overflow: hidden;
 }
@@ -111,15 +111,23 @@
 .card-btn {
   width: 50%;
   display: inline-block;
-  border: 1px solid #e5e5e5;
-  border-right-color: transparent;
+  border: 1px solid #eee;
   padding: 0.2rem 0.5rem;
   box-sizing: border-box;
   cursor: pointer;
 }
 
+.card-btn:first-child {
+  border-right-color: transparent;
+  border-left-color: transparent;
+}
+
+.card-btn:last-child {
+  border-right-color: transparent;
+}
+
 .card-btn:hover {
-  border-color: transparent;;
+  border-color: transparent;
   color: #f5f5f5;
   background-color: #9bc681;
 }
