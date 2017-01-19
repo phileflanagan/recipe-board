@@ -18,6 +18,7 @@ import About from './components/About';
 import Contact from './components/Contact';
 
 import './index.css';
+import './css/font-awesome/font-awesome.min.css';
 
 const Root = () => {
   return (

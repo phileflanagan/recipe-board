@@ -39,7 +39,7 @@ class Recipe extends Component {
                 <span className="count-icon">comments</span>
               </Link>
               <a href="#" className="card-btn">
-                <span className="count">{likes}</span>
+                <span className="count"><i class="fa fa-heart"></i></span>
                 <span className="count-icon">saves</span>
               </a>
             </div>
