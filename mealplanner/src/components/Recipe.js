@@ -1,6 +1,7 @@
 import React, { Component, PropTypes } from 'react';
 import { Link } from 'react-router';
 
+import FontAwesome from 'react-fontawesome';
 import '../css/Recipe.css';
 
 class Recipe extends Component {
@@ -36,11 +37,11 @@ class Recipe extends Component {
             <div className="likes">
               <Link to={`/recipe/${this.props.index}`} className="card-btn">
                 <span className="count">{commentCount}</span>
-                <span className="count-icon">comments</span>
+                <span className="count-icon"><i className="fa fa-comment"></i></span>
               </Link>
               <a href="#" className="card-btn">
-                <span className="count"><i class="fa fa-heart"></i></span>
-                <span className="count-icon">saves</span>
+                <span className="count">{likes}</span>
+                <span className="count-icon"><i className="fa fa-heart"></i></span>
               </a>
             </div>
         </div>

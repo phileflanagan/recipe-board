@@ -35,13 +35,43 @@
 }
 
 .recipe-card-content .desc h3 {
-  margin: 0;
-  /*font-weight: 600;*/
-  font-size: 0.95rem;
+  color: white;
+  background-color: #7cb05d;
+  display: inline-block;
+  font-size: 1rem;
+  position: absolute;
+  top: 0;
+  left: 0.24rem;
+  height: 34px;
+  padding: 0 10px;
+  line-height: 34px;
+  /*box-sizing: border-box;*/
+  border: none;
+}
+
+.recipe-card-content .desc h3:before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 34px;
+  border: 0.13rem solid transparent;
+  border-top-color: #6b9951;
+  border-right-color: #6b9951;
+}
+
+.recipe-card-content .desc h3:after {
+  content: "";
+  position: absolute;
+  right: -10px;
+  top: 0;
+  border-top: 34px solid transparent;
+  border-right: none;
+  border-bottom: none;
+  border-left: 10px solid #7cb05d;
 }
 
 .recipe-card-content .desc h3:hover {
-  color: #9bc681;
+  background-color: #86bf65;
 }
 
 .recipe-card-content .desc p {
@@ -57,12 +87,12 @@
 
 .recipe-card-content .tags ul > li {
   display: inline-block;
-  font-size: 0.45rem;
+  font-size: 0.5rem;
   text-transform: uppercase;
   border-radius: 0.3rem;
   background-color: #ccc;
   color: white;
-  padding: 2px 3px;
+  padding: 4px 7px;
   margin-right: 0.3rem;
   margin-left: 0;
   letter-spacing: 1px;
@@ -70,12 +100,12 @@
 }
 
 .recipe-card-content .tags ul > li:hover {
-  background-color: #9bc681;
+  background-color: #7cb05d;
 }
 
 .likes {
   text-align: center;
-  color: #aaa
+  color: #7cb05d;
 }
 
 .card-btn {

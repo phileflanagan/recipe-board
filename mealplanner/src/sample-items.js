@@ -92,9 +92,9 @@ module.exports = {
     recipeVideo: '',
   },
   burger: {
-    name: 'Black Bean, Sweet Potato, Seitan Burger',
+    name: 'Veggie Burger',
     image: 'https://s3-us-west-2.amazonaws.com/philinthekitchen/burger.jpg',
-    desc: 'My newest burger recipe',
+    desc: 'My newest burger recipe featuring black beans and sweet potatoes.',
     likes: 0,
     commentCount: 0,
     comments: [],
@@ -103,7 +103,7 @@ module.exports = {
     recipeVideo: '',
   },
   cajuncabbage: {
-    name: 'Spicy Cajun Cabbage and Potato Stew',
+    name: 'Spicy Cajun Stew',
     image: 'https://s3-us-west-2.amazonaws.com/philinthekitchen/cajun-cabbage.jpg',
     desc: 'This spicy stew is the perfect way to warm up you and your tastebuds',
     likes: 0,

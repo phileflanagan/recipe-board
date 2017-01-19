@@ -16,6 +16,10 @@
   background-color: #7cb05d;
 }
 
+.topbar a.active:hover {
+  background-color: #86bf65;
+}
+
 .topbar .container {
     display: flex;
 }

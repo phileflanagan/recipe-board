@@ -1,5 +1,6 @@
 /* Import Fonts*/
 @import url('https://fonts.googleapis.com/css?family=Amatic+SC:700|Indie+Flower|Open+Sans:300,400,600,800');
+@import url('https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css');
 
 body {
   margin: 0;
@@ -8,7 +9,7 @@ body {
   font-family: 'open sans', 'helvetica neue', 'arial', sans-serif;
   font-size: 14px;
   font-weight: 300;
-  background-color: #f6f1ea;
+  background-color: #f2ede6;
   color: #666;
 }
 
